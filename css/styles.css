@@ -101,6 +101,10 @@ nav .menu-items li.active {
   width: 50%;
 }
 #bio figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   position: relative;
 }
@@ -119,8 +123,6 @@ nav .menu-items li.active {
   background-color: #9EA8BD;
   border-radius: 50%;
   position: absolute;
-  top: 0;
-  left: calc(50% - 150px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,6 +142,7 @@ nav .menu-items li.active {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  overflow: hidden;
 }
 #tecnologias .tecnologia {
   color: #9EA8BD;
@@ -217,13 +220,6 @@ nav .menu-items li.active {
   #tecnologias div.tecnologia {
     width: 50%;
   }
-}
-.hidden {
-  display: none;
-}
-
-.flex {
-  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
